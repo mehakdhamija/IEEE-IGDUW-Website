@@ -375,3 +375,54 @@ footer{
   /*  margin-left:5.4rem; */
 
   }
+
+
+/* demo shizzle only */
+body {
+  background: white;
+  
+  margin: 30px auto;
+  padding: 20px;
+/*   outline: 1px solid #ccc; */
+}
+
+/* Still use global css (not utility css) for base typography etc? */
+p {
+  margin-bottom: 2em;
+
+}
+
+.textc{
+  text-align: center;
+}
+
+.outer-container {
+  width: 240px;
+  height: 240px;
+  border-radius: 50px;
+  background: #EFF2FB;
+  position: relative;
+  margin-left: 8rem;
+}
+
+.inner-circle {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  background: #6889FF;
+  border-radius: 50%;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.inner-circle,
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
