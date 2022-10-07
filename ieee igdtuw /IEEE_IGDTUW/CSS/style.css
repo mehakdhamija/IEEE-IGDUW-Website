@@ -179,12 +179,13 @@ font-style: normal;
                                                       /* Sara's Code */
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 h2{ position: relative;
     text-align: center;
     font-family: 'Poppins';
-    font-style: normal;}
+    font-style: normal;
+  }
 
 .top-part{
     position:relative;
